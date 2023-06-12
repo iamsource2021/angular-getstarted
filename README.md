@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Here are some key concepts you need to understand about Angular
+
+
+
+- *Components*: Components are the foundation of an Angular application. Each component represents a specific part of the user interface and contains its own logic and associated template. Components can be nested within each other to build more complex interfaces.
+
+- *Templates*: Templates define how the content of a component is rendered. They use a syntax similar to HTML and allow you to bind data and events to the component's code.
+
+- *Directives*: Directives are instructions applied to DOM elements in a template. Angular includes built-in directives like ngIf and ngFor that allow you to perform conditional and repetitive actions in the user interface.
+
+- *Data Binding*: Angular uses one-way data binding to keep the component's data and the user interface in sync. You can bind component properties and events to the template to reflect changes in real time.
+
+- *Services*: Services are classes that provide specific functionalities and can be injected into components to share data or perform common operations. Services are useful for separating business logic from component code and promoting reusability.
+
+- *Dependency Injection*: Angular has a built-in dependency injection system that allows you to provide instances of classes to other classes that need them. This makes it easy to create and maintain scalable and decoupled applications.
+
+- *Modules*: Modules are containers for organizing components, services, and other Angular artifacts. Modules define a context and enable code reuse between applications.
+
